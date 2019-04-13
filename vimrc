@@ -17,8 +17,7 @@ call vundle#begin()
 "call vundle#begin('~/some/path/here')
 "let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
-
-
+Plugin 'Valloric/YouCompleteMe'
 "The following are examples of different formats supported.
 "Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
