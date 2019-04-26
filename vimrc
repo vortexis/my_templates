@@ -49,5 +49,4 @@ let g:go_highlight_format_strings = 1
 let g:go_highlight_variable_declarations = 1
 let g:go_highlight_variable_assignments = 1
 set number
-set incsearch
 colorscheme portoprince
