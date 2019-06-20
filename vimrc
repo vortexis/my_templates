@@ -48,7 +48,5 @@ let g:go_highlight_generate_tags='1'
 let g:go_highlight_format_strings='1'
 let g:go_highlight_variable_declarations='1'
 let g:go_highlight_variable_assignments='1' 
-let g:go_def_mode='gopls'
-let g:go_info_mode='gopls'
 set number
 colorscheme portoprince
