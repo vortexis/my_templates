@@ -24,7 +24,6 @@ Plugin 'Valloric/YouCompleteMe'
 " vim-fugitive provides git commands within vim
 "Plugin 'tpope/vim-fugitive'
 Plugin 'fatih/vim-go'
-Plugin 'KeitaNakamura/neodark.vim'
 "The sparkup vim script is in a subdirectory of this repo called vim.
 "Pass the path to set the runtimepath properly.
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
