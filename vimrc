@@ -46,5 +46,8 @@ let g:go_highlight_generate_tags=1
 let g:go_highlight_format_strings=1
 let g:go_highlight_variable_declarations=1
 let g:go_highlight_variable_assignments=1
+"orinal color scheme with rehash256
+let g:rehash256=1
 set number
 colorscheme portoprince
+
