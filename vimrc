@@ -22,7 +22,7 @@ Plugin 'Valloric/YouCompleteMe'
 "Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
 " vim-fugitive provides git commands within vim
-"Plugin 'fatih/vim-go'
+Plugin 'fatih/vim-go'
 "The sparkup vim script is in a subdirectory of this repo called vim.
 "Pass the path to set the runtimepath properly.
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
@@ -36,15 +36,15 @@ filetype plugin indent on    " required
 
 "Put your non-Plugin stuff after this line
 syntax on
-let g:go_highlight_types='1'
-let g:go_highlight_fields='1'
-let g:go_highlight_functions='1'
-let g:go_highlight_function_calls='1'
-let g:go_highlight_operators='1'
-let g:go_highlight_extra_types='1'
-let g:go_highlight_generate_tags='1'
-let g:go_highlight_format_strings='1'
-let g:go_highlight_variable_declarations='1'
-let g:go_highlight_variable_assignments='1' 
+let g:go_highlight_types=1
+let g:go_highlight_fields=1
+let g:go_highlight_functions=1
+let g:go_highlight_function_calls=1
+let g:go_highlight_operators=1
+let g:go_highlight_extra_types=1
+let g:go_highlight_generate_tags=1
+let g:go_highlight_format_strings=1
+let g:go_highlight_variable_declarations=1
+let g:go_highlight_variable_assignments=1
 set number
 colorscheme portoprince
