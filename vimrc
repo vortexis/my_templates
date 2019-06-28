@@ -18,6 +18,7 @@ call vundle#begin()
 "let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'Valloric/YouCompleteMe'
+Plugin 'ctrlpvim/ctrlp.vim'
 "The following are examples of different formats supported.
 "Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
@@ -48,6 +49,10 @@ let g:go_highlight_variable_declarations=1
 let g:go_highlight_variable_assignments=1
 "orinal color scheme with rehash256
 let g:rehash256=1
+set t_Co=256
+set encoding=utf-8
+set ttyscroll=3
+set ttyfast
+set noswapfile
 set number
 colorscheme portoprince
-
