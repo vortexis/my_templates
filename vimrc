@@ -26,7 +26,6 @@ Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'fatih/vim-go'
 "The sparkup vim script is in a subdirectory of this repo called vim.
 "Pass the path to set the runtimepath properly.
-Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 
 "All of your Plugins must be added before the following line
 call vundle#end()            " required
