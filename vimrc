@@ -50,7 +50,6 @@ let g:go_highlight_variable_assignments=1
 let g:rehash256=1
 set t_Co=256
 set encoding=utf-8
-set ttyscroll=3
 set ttyfast
 set noswapfile
 set number
