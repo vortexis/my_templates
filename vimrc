@@ -46,8 +46,8 @@ let g:go_highlight_generate_tags=1
 let g:go_highlight_format_strings=1
 let g:go_highlight_variable_declarations=1
 let g:go_highlight_variable_assignments=1
-"orinal color scheme with rehash256
-let g:rehash256=1
+"use clang or clangd
+""let g:ycm_use_clangd=0
 set t_Co=256
 set encoding=utf-8
 set ttyfast
