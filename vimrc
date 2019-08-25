@@ -47,9 +47,14 @@ let g:go_highlight_generate_tags=1
 let g:go_highlight_format_strings=1
 let g:go_highlight_variable_declarations=1
 let g:go_highlight_variable_assignments=1
+
+"YouCompleteMe
+let g:ycm_min_num_of_chars_for_completion=2
+
+
 set t_Co=256
 set encoding=utf-8
-"set ttyfast
-"set noswapfile
+set ttyfast
+set noswapfile
 set number
 colorscheme portoprince
