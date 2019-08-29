@@ -64,16 +64,21 @@ hi Special    cterm=BOLD ctermfg=9    gui=NONE guifg=#ff0000
 
 "package import color
 hi Statement  cterm=BOLD ctermfg=33	gui=NONE guifg=#0087ff
+
 "type struct interface func color 
 hi Keyword    cterm=BOLD ctermfg=33	gui=NONE guifg=#0087ff
+
 "float float64 int string imported package names color
 hi Type	      cterm=BOLD ctermfg=130	gui=NONE guifg=#af5f00
+
 hi Special    cterm=BOLD ctermfg=6      gui=NONE guifg=#008080
+
 "if color
 hi Conditional cterm=BOLD ctermfg=9	gui=NONE guifg=#ff0000
 
 "function name color
 hi Function	cterm=BOLD ctermfg=9	gui=NONE guifg=#ff0000
+
 hi Label	cterm=BOLD ctermfg=9	gui=NONE guifg=#ff0000
 
 hi Operator	cterm=BOLD ctermfg=129	gui=NONE guifg=Purple
