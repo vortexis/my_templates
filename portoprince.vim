@@ -58,7 +58,7 @@ hi Statement  cterm=NONE ctermfg=160    gui=NONE guifg=Red3
 hi Type	      cterm=NONE ctermfg=Green  gui=NONE guifg=Green
 hi Keyword    cterm=NONE ctermfg=63	gui=NONE guifg=RoyalBlue1
 hi Special    cterm=NONE ctermfg=6      gui=NONE guifg=cyan4
-hi Conditional cterm=NONE ctermfg=Red	gui=NONE guifg=Red
+hi Conditional cterm=NONE ctermfg=160	gui=NONE guifg=Red3
 hi Function	cterm=NONE ctermfg=1	gui=NONE guifg=Maroon
 hi Label	cterm=BOLD ctermfg=92	gui=NONE guifg=DarkViolet
 hi Operator	cterm=BOLD ctermfg=129	gui=NONE guifg=Purple
