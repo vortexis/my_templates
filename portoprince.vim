@@ -52,13 +52,13 @@ hi WildMenu   ctermfg=Black	   ctermbg=Yellow    guibg=Yellow guifg=Black
 hi Comment    cterm=NONE ctermfg=81	gui=NONE guifg=SteelBlue1
 hi Constant   cterm=NONE ctermfg=184	gui=NONE guifg=Yellow3
 hi Identifier cterm=NONE ctermfg=100	gui=NONE guifg=Yellow4
-hi PreProc    cterm=NONE ctermfg=160	gui=NONE guifg=Red3
-hi Special    cterm=NONE ctermfg=160    gui=NONE guifg=Red3
-hi Statement  cterm=NONE ctermfg=160    gui=NONE guifg=Red3
+hi PreProc    cterm=NONE ctermfg=9	gui=NONE guifg=Red2
+hi Special    cterm=NONE ctermfg=9    gui=NONE guifg=Red2
+hi Statement  cterm=NONE ctermfg=9    gui=NONE guifg=Red2
 hi Type	      cterm=NONE ctermfg=Green  gui=NONE guifg=Green
 hi Keyword    cterm=NONE ctermfg=63	gui=NONE guifg=RoyalBlue1
 hi Special    cterm=NONE ctermfg=6      gui=NONE guifg=cyan4
-hi Conditional cterm=NONE ctermfg=160	gui=NONE guifg=Red3
+hi Conditional cterm=NONE ctermfg=9	gui=NONE guifg=Red2
 hi Function	cterm=NONE ctermfg=1	gui=NONE guifg=Maroon
 hi Label	cterm=BOLD ctermfg=92	gui=NONE guifg=DarkViolet
 hi Operator	cterm=BOLD ctermfg=129	gui=NONE guifg=Purple
