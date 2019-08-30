@@ -51,15 +51,15 @@ hi WildMenu   ctermfg=Black	   ctermbg=Yellow    guibg=Yellow guifg=Black
 
 "syntax highlighting
 "comment color
-hi Comment    cterm=BOLD ctermfg=81	gui=NONE guifg=#5fdfff
+hi Comment cterm=BOLD ctermfg=81 gui=NONE guifg=#5fdfff
 
 "user values in quotes color
-hi Constant   cterm=BOLD ctermfg=184	gui=NONE guifg=#dfdf00
+hi Constant cterm=BOLD ctermfg=184 gui=NONE guifg=#dfdf00
 
 "user defined values color
-hi Identifier cterm=BOLD ctermfg=11	gui=NONE guifg=#ffff00
+hi Identifier cterm=BOLD ctermfg=11 gui=NONE guifg=#ffff00
 
-hi PreProc    cterm=BOLD ctermfg=172	gui=NONE guifg=#df8700
+hi PreProc cterm=BOLD ctermfg=172 gui=NONE guifg=#df8700
 hi Special    cterm=BOLD ctermfg=9    gui=NONE guifg=#ff0000
 
 "package import color
