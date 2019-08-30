@@ -51,36 +51,32 @@ hi WildMenu   ctermfg=Black	   ctermbg=Yellow    guibg=Yellow guifg=Black
 
 "syntax highlighting
 "comment color
-hi Comment cterm=BOLD ctermfg=81 gui=NONE guifg=#5fdfff
+hi Comment	cterm=BOLD	ctermfg=51	gui=NONE	guifg=#00ffff
 
 "user values in quotes color
-hi Constant cterm=BOLD ctermfg=184 gui=NONE guifg=#dfdf00
+hi Constant	cterm=BOLD	ctermfg=184	gui=NONE	guifg=#dfdf00
 
 "user defined values color
-hi Identifier cterm=BOLD ctermfg=11 gui=NONE guifg=#ffff00
-
-hi PreProc cterm=BOLD ctermfg=172 gui=NONE guifg=#df8700
-hi Special    cterm=BOLD ctermfg=9    gui=NONE guifg=#ff0000
+hi Identifier	cterm=BOLD	ctermfg=11	gui=NONE	guifg=#ffff00
+hi PreProc	cterm=BOLD	ctermfg=172	gui=NONE	guifg=#df8700
+hi Special	cterm=BOLD	ctermfg=9	gui=NONE	guifg=#ff0000
 
 "package import color
-hi Statement  cterm=BOLD ctermfg=33	gui=NONE guifg=#0087ff
+hi Statement	cterm=BOLD	ctermfg=33	gui=NONE	guifg=#0087ff
 
 "type struct interface func color 
-hi Keyword    cterm=BOLD ctermfg=33	gui=NONE guifg=#0087ff
+hi Keyword	cterm=BOLD	ctermfg=33	gui=NONE	guifg=#0087ff
 
 "float float64 int string imported package names color
-hi Type	      cterm=BOLD ctermfg=130	gui=NONE guifg=#af5f00
+hi Type		cterm=BOLD	ctermfg=130	gui=NONE	guifg=#af5f00
+hi Special	cterm=BOLD	ctermfg=6	gui=NONE	guifg=#008080
 
-hi Special    cterm=BOLD ctermfg=6      gui=NONE guifg=#008080
+"if switch case color
+hi Conditional	cterm=BOLD	ctermfg=9	gui=NONE	guifg=#ff0000
 
-"if color
-hi Conditional cterm=BOLD ctermfg=9	gui=NONE guifg=#ff0000
-
-"function name color
-hi Function	cterm=BOLD ctermfg=9	gui=NONE guifg=#ff0000
-
-hi Label	cterm=BOLD ctermfg=9	gui=NONE guifg=#ff0000
-
+"main function name color
+hi Function	cterm=BOLD	ctermfg=9	gui=NONE	guifg=#ff0000
+hi Label	cterm=BOLD	ctermfg=9	gui=NONE	guifg=#ff0000
 hi Operator	cterm=BOLD ctermfg=129	gui=NONE guifg=Purple
 hi Repeat	cterm=BOLD ctermfg=55	gui=NONE guifg=Purple4
 hi Todo		cterm=BOLD ctermfg=81	gui=NONE guifg=SteelBlue1
