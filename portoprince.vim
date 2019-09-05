@@ -58,14 +58,14 @@ hi Constant	cterm=NONE	ctermfg=227	gui=NONE	guifg=#ffff5f
 
 "the end part of functions identifiers arrays slices
 hi Identifier	cterm=NONE	ctermfg=42	gui=NONE	guifg=#00d787
-hi PreProc	cterm=BOLD	ctermfg=172	gui=NONE	guifg=#df8700
-hi Special	cterm=BOLD	ctermfg=9	gui=NONE	guifg=#ff0000
+hi PreProc	cterm=NONE	ctermfg=162	gui=NONE	guifg=#d70087
+hi Special	cterm=BOLD	ctermfg=162	gui=NONE	guifg=#d70087
 
 "package import color
-hi Statement	cterm=BOLD	ctermfg=33	gui=NONE	guifg=#0087ff
+hi Statement	cterm=BOLD	ctermfg=033	gui=NONE	guifg=#0087ff
 
 "type struct interface func color 
-hi Keyword	cterm=BOLD	ctermfg=33	gui=NONE	guifg=#0087ff
+hi Keyword	cterm=BOLD	ctermfg=033	gui=NONE	guifg=#0087ff
 
 "float float64 int string imported package names color
 hi Type		cterm=NONE      ctermfg=042	gui=NONE	guifg=#00d787
@@ -77,6 +77,6 @@ hi Conditional	cterm=BOLD	ctermfg=9	gui=NONE	guifg=#ff0000
 "main function name color
 hi Function	cterm=BOLD	ctermfg=9	gui=NONE	guifg=#ff0000
 hi Label	cterm=BOLD	ctermfg=9	gui=NONE	guifg=#ff0000
-hi Operator	cterm=BOLD ctermfg=129	gui=NONE guifg=Purple
+hi Operator	cterm=BOLD ctermfg=9	gui=NONE guifg=#ff0000
 hi Repeat	cterm=BOLD ctermfg=55	gui=NONE guifg=Purple4
 hi Todo		cterm=BOLD ctermfg=81	gui=NONE guifg=SteelBlue1
