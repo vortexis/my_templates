@@ -68,7 +68,7 @@ hi Statement	cterm=BOLD	ctermfg=33	gui=NONE	guifg=#0087ff
 hi Keyword	cterm=BOLD	ctermfg=33	gui=NONE	guifg=#0087ff
 
 "float float64 int string imported package names color
-hi Type		cterm=NONE      ctermfg=47	gui=NONE	guifg=#2ecc71
+hi Type		cterm=NONE      ctermfg=35	gui=NONE	guifg=#2ecc71
 hi Special	cterm=BOLD	ctermfg=6	gui=NONE	guifg=#008080
 
 "if switch case color
