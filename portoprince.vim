@@ -51,13 +51,13 @@ hi WildMenu   ctermfg=Black	   ctermbg=Yellow    guibg=Yellow guifg=Black
 
 "syntax highlighting
 "comment color
-hi Comment	cterm=BOLD	ctermfg=51	gui=NONE	guifg=#00ffff
+hi Comment	cterm=NONE	ctermfg=045	gui=NONE	guifg=#00d7ff
 
 "user values in quotes color
-hi Constant	cterm=BOLD	ctermfg=184	gui=NONE	guifg=#dfdf00
+hi Constant	cterm=NONE	ctermfg=227	gui=NONE	guifg=#ffff5f
 
-"user defined values color
-hi Identifier	cterm=BOLD	ctermfg=11	gui=NONE	guifg=#ffff00
+"the end part of functions identifiers arrays slices
+hi Identifier	cterm=NONE	ctermfg=42	gui=NONE	guifg=#00d787
 hi PreProc	cterm=BOLD	ctermfg=172	gui=NONE	guifg=#df8700
 hi Special	cterm=BOLD	ctermfg=9	gui=NONE	guifg=#ff0000
 
@@ -68,7 +68,7 @@ hi Statement	cterm=BOLD	ctermfg=33	gui=NONE	guifg=#0087ff
 hi Keyword	cterm=BOLD	ctermfg=33	gui=NONE	guifg=#0087ff
 
 "float float64 int string imported package names color
-hi Type		cterm=NONE      ctermfg=35	gui=NONE	guifg=#2ecc71
+hi Type		cterm=NONE      ctermfg=042	gui=NONE	guifg=#00d787
 hi Special	cterm=BOLD	ctermfg=6	gui=NONE	guifg=#008080
 
 "if switch case color
