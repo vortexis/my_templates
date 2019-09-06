@@ -58,25 +58,34 @@ hi Constant	cterm=NONE	ctermfg=227	gui=NONE	guifg=#ffff5f
 
 "the end part of functions identifiers arrays slices
 hi Identifier	cterm=NONE	ctermfg=42	gui=NONE	guifg=#00d787
-hi PreProc	cterm=NONE	ctermfg=162	gui=NONE	guifg=#d70087
-hi Special	cterm=BOLD	ctermfg=162	gui=NONE	guifg=#d70087
+
+"barf
+hi PreProc	cterm=NONE	ctermfg=045	gui=NONE	guifg=#00d7ff
+hi Special	cterm=NONE	ctermfg=045	gui=NONE	guifg=#00d7ff
+hi Repeat	cterm=BOLD	ctermfg=238	gui=NONE	guifg=#444444
+hi Todo		cterm=BOLD	ctermfg=238	gui=NONE	guifg=#444444
+hi Label	cterm=BOLD	ctermfg=015	gui=NONE	guifg=#ffffff
+"barf
+
 
 "package import color
 hi Statement	cterm=BOLD	ctermfg=033	gui=NONE	guifg=#0087ff
 
+
 "type struct interface func color 
 hi Keyword	cterm=BOLD	ctermfg=033	gui=NONE	guifg=#0087ff
 
+
 "float float64 int string imported package names color
 hi Type		cterm=NONE      ctermfg=042	gui=NONE	guifg=#00d787
-hi Special	cterm=BOLD	ctermfg=6	gui=NONE	guifg=#008080
+
+"my unique values that are not variables and newlines
+hi Special	cterm=BOLD	ctermfg=099	gui=NONE	guifg=#875fff
+
 
 "if switch case color
-hi Conditional	cterm=BOLD	ctermfg=9	gui=NONE	guifg=#ff0000
+hi Conditional	cterm=BOLD	ctermfg=160	gui=NONE	guifg=#d70000
 
-"main function name color
-hi Function	cterm=BOLD	ctermfg=9	gui=NONE	guifg=#ff0000
-hi Label	cterm=BOLD	ctermfg=9	gui=NONE	guifg=#ff0000
-hi Operator	cterm=BOLD ctermfg=9	gui=NONE guifg=#ff0000
-hi Repeat	cterm=BOLD ctermfg=55	gui=NONE guifg=Purple4
-hi Todo		cterm=BOLD ctermfg=81	gui=NONE guifg=SteelBlue1
+"2 below are main function name color and operators = & !
+hi Function	cterm=BOLD	ctermfg=162	gui=NONE	guifg=#d70087
+hi Operator	cterm=BOLD	ctermfg=162	gui=NONE	guifg=#d70000

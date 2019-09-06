@@ -51,14 +51,13 @@ let g:go_highlight_comments=1
 let g:go_highlight_constants=1
 let g:go_highlight_identifiers=1
 let g:go_highlight_keywords=1
-let g:go_highlight_special=1
 let g:go_highlight_conditional=1
 let g:go_highlight_statements=1
 let g:go_highlight_operators=1
 
 
 
-"set t_Co=256
+set t_Co=256
 set encoding=utf-8
 set ttyfast
 set noswapfile
