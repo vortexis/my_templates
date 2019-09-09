@@ -63,7 +63,7 @@ hi Identifier	cterm=NONE	ctermfg=42	gui=NONE	guifg=#00d787
 hi PreProc	cterm=NONE	ctermfg=045	gui=NONE	guifg=#00d7ff
 hi Special	cterm=NONE	ctermfg=045	gui=NONE	guifg=#00d7ff
 hi Repeat	cterm=BOLD	ctermfg=238	gui=NONE	guifg=#444444
-hi Todo		cterm=BOLD	ctermfg=238	gui=NONE	guifg=#444444
+hi Todo		cterm=BOLD	ctermfg=015	gui=NONE	guifg=#ffffff
 hi Label	cterm=BOLD	ctermfg=015	gui=NONE	guifg=#ffffff
 "barf
 
