@@ -54,7 +54,7 @@ hi WildMenu   ctermfg=Black	   ctermbg=Yellow    guibg=Yellow guifg=Black
 hi Comment	cterm=NONE	ctermfg=045	gui=NONE	guifg=#00d7ff
 
 "user values in quotes color
-hi Constant	cterm=NONE	ctermfg=227	gui=NONE	guifg=#ffff5f
+hi Constant	cterm=NONE	ctermfg=220	gui=NONE	guifg=#ffdf00
 
 "the end part of functions identifiers arrays slices
 hi Identifier	cterm=NONE	ctermfg=42	gui=NONE	guifg=#00d787
