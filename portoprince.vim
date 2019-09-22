@@ -83,7 +83,7 @@ hi Type		cterm=NONE      ctermfg=042	gui=NONE	guifg=#00d787
 hi Special	cterm=BOLD	ctermfg=099	gui=NONE	guifg=#875fff
 
 
-"if switch case color
+"the 'if' and 'switch' color
 hi Conditional	cterm=BOLD	ctermfg=160	gui=NONE	guifg=#d70000
 
 "2 below are main function name color and operators = & !
