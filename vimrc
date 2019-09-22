@@ -58,6 +58,7 @@ let g:go_highlight_operators=1
 
 
 set t_Co=256
+"needed for You-Complete-Me
 set encoding=utf-8
 set ttyfast
 set noswapfile
