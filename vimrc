@@ -54,7 +54,9 @@ let g:go_highlight_conditional=1
 let g:go_highlight_statements=1
 let g:go_highlight_operators=1
 
-
+"go syntax highlighting
+let g:go_def_mode='gopls'
+let g:go_info_mode='gopls'
 
 set t_Co=256
 "needed for You-Complete-Me
