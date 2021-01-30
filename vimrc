@@ -22,7 +22,7 @@ Plugin 'ycm-core/YouCompleteMe'
 "Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
 " vim-fugitive provides git commands within vim
-Plugin 'fatih/vim-go'
+"Plugin 'fatih/vim-go'
 "The sparkup vim script is in a subdirectory of this repo called vim.
 "Pass the path to set the runtimepath properly.
 
